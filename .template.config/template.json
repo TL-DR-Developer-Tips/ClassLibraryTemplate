@@ -1,0 +1,19 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Tal McMahon",
+  "classifications": [ "TL;DR", "Library" ],
+  "identity": "TLDR.ClassLibraryTemplate",
+  "name": "Class Library Template",
+  "sourceName": "TLDR.ClassLibraryTemplate",
+  "shortName": "TLDR.ClassLib",
+  "preferNameDirectory": true,
+  "sources": [
+    {
+      "modifiers": [
+        {
+          "exclude": [ ".vs/**", ".git/**", "README.md" ]
+        }
+      ]
+    }
+  ]
+}
